@@ -39,6 +39,8 @@ Bulid a neural network model which can classify the images taken from satellite 
  - Python 
  - Jupyter Notebook
  - PyCharm
+ - Tensorflow
+ - Keras
 
 ## Results
 
