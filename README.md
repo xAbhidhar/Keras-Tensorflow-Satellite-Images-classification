@@ -35,9 +35,10 @@ Labels are encoded as one hot encoded vectors(1x4) for each class of the landmas
    - y_test_sat4.csv: 100,000 training labels, 1x4 one-hot encoded vectors 
 
 #### Validation and Test Set
+Holdout set is used for cross validation and is the size of 10% of the input data. The test set consists 5,000 images. 
 
 #### Model Selection
-
+The model selected is the Neural Network with fully connected layers. 
 #### Training
 
 #### Evaluation
