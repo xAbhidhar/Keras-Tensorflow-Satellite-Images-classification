@@ -20,8 +20,21 @@ Bulid a deep leaning model to classify the images taken from satellite into the 
 
 ## Implementation
 
-#### Data collection and Data Preprocesing
+#### Dataset
+The Data is originally collected under National Agriculture Imagery Program (NAIP) (https://catalog.data.gov/dataset?tags=naip). The size of the original dataset is ~65 TB. The data is in the form of uncompressed `Digital Ortho Quarter Quad Tiles (DOQQs)`. These are the GeotTIFF images corresponding to the United States Geological Survey (USGUS). The model is trained on as subset of these images. Images consists of 4 different bands - 
+   - Red 
+   - Green 
+   - Blue 
+   - Near Infrared
 
+#### Input Data Format
+Labels are encoded as one hot encoded vectors(1x4) for each class of the landmass. Every patch of image is normalized to the size of 28x28 pixels. The data is in 4 CSV files -
+   - X_train_sat4.csv: 400,000 training images, 28x28 images each with 4 channels 
+   - y_train_sat4.csv: 400,000 training labels, 1x4 one-hot encoded vectors 
+   - X_test_sat4.csv: 100,000 training images, 28x28 images each with 4 channels 
+   - y_test_sat4.csv: 100,000 training labels, 1x4 one-hot encoded vectors 
+
+#### Validation and Test Set
 
 #### Model Selection
 
