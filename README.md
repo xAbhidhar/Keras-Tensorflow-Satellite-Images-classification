@@ -10,7 +10,7 @@ cost. This project aims to analyze the dataset using neural networks to classify
 either of following – barren land, forest, grassland and others.
 
 ## Problem Statement
-Bulid a neural network model which can classify the images taken from satellite into any one of the following categories:
+Bulid a deep leaning model to classify the images taken from satellite into the following categories:
    -  Barren Land
    -  Forest
    -  Grassland
