@@ -1,7 +1,6 @@
 # Image-classification-using-keras
 National Agricultural Imagery Program collects satellite imagery data across the whole of
-the Continental United States. The entire dataset is approx. 65 TeraBytes. Sample image dataset taken from the entire
-65TB of data includes numerous landscapes like rural areas, urban areas, mountains, forest
+the Continental United States. Sample image dataset taken from the entire data includes numerous landscapes like rural areas, urban areas, mountains, forest
 patches, rivers, lakes farms, etc. covering the entire state of California. This project aims to analyze the dataset using neural networks to classify the images into
 either of following class – barren land, forest, grassland and others.
 
