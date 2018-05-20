@@ -47,6 +47,18 @@ Test set size is 10% of the input data. The test set consists 1,000 images.
 #### Model Selection
 The model selected is the Neural Network with fully connected layers. 
 
+#### Implementation
+ 
+Sequential model in Keras is a linear stack of layers. Sequential model could be created by passing a list of layer instances to the constructor. Initially, the model needs to know the type of input shape it should expect. To tell the model the input shape, the first layer in the Sequential model receives the information about the input shape. This could be done is the following ways:
+   - Passing a parameter “input_shape” to the first layer
+   - Some 2d layers like “Dense” support specifying the input shape with the argument “input_dim”.
+ 
+Prior to building the model, the learning process needs to be configured. This is done by the compile method. It receives the following three arguments:
+   - Optimizer
+   - Loss Function
+   - Accuracy metrics
+
+
 ## Technologies & Tools used
  - Python 
  - Jupyter Notebook
