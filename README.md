@@ -67,7 +67,7 @@ Prior to building the model, the learning process needs to be configured. This i
  - Keras
 
 ## Results
-
+Predicted the image with over 80 percent accuracy.
 
 
 
