@@ -45,7 +45,7 @@ Labels are encoded as one hot encoded vectors(1x4) for each class of the landmas
 Test set size is 10% of the input data. The test set consists 1,000 images. 
 
 #### Model Selection
-The model selected is the Neural Network with fully connected layers. 
+Implented the sequential model of keras. The model selected is the Neural Network with fully connected layers.
 
 #### Implementation
  
