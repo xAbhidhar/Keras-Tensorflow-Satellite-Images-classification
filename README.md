@@ -1,5 +1,5 @@
 # Image-classification-using-keras
-National Agricultural Imagery Program collects satellite imagery data across the whole of
+National Agricultural Imagery NAIP Program collects satellite imagery data across the whole of
 the Continental United States. Sample image dataset taken from the entire data includes numerous landscapes like rural areas, urban areas, mountains, forest
 patches, rivers, lakes farms, etc. covering the entire state of California. This project aims to analyze the dataset using neural networks to classify the images into
 either of following class – barren land, forest, grassland and other.
