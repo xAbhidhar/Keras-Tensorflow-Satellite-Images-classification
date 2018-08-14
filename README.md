@@ -24,6 +24,8 @@ The following libraries are used:
    -  `Matplotlib`  for visualization 
 
    -  `Skimage` for image processing
+   
+   - 
 
 
 ## Implementation
