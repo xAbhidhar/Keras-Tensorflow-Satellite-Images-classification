@@ -42,7 +42,7 @@ Labels are encoded as one hot encoded vectors(1x4) for each class of the landmas
    - y_test_sat4.csv: 100,000 training labels, 1x4 one-hot encoded vectors 
 
 #### Test Set
-Test set size is 10% of the input data. The test set consists 1,000 images. 
+Test set size is 10% of the input data which makes the test set consists 1,000 images. 
 
 #### Model Selection
 Implented the sequential model of keras. The model selected is the Neural Network with fully connected layers.
